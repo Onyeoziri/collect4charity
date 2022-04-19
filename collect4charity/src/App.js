@@ -1,15 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/Navbar';
-import {BrowserRouter as Router} from 'react-router-dom';
+import {Navbar} from './components';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import {Home, About, Services, Charities} from './pages';
+
+const PagesNotFound =() =>(
+  <div>404!</div>
+) 
 
 function App() {
   return (
     <div className="App">
-      <div className = 'semi-circle'></div>
       <Router>
         <Navbar/>
-      </Router> 
+        <Routes>
+          <Route path='/' element={Home} />
+          <Route path='/about' element={About} />
+          <Route path='/services' element={Services} />
+          <Route path='/cherities' element={Charities} />
+        </Routes>
+      </Router>
+      <Home /> 
+      <span className = 'semi-circle'></span>
     </div>
   );
 }

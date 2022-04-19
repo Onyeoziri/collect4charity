@@ -8,7 +8,7 @@
   padding: 0;
 }  
 body {
-  background: #353F72;
+  background: #525998;
 }
 
 .semi-circle
@@ -17,5 +17,10 @@ body {
     width: 1920px;
     height: 1080px;
 
-    background: #525998;
+    background: #353F72;
   }
+
+h1
+{
+  color: aliceblue;
+}

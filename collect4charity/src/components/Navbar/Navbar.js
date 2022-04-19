@@ -10,10 +10,10 @@ import {Nav,
 const Navbar = () => {
   return (
     <Nav>
-        <NavLink to="">
+        <NavLink to="/">
           <h1>Logo</h1>
         </NavLink>
-        // <Bars/>  //hamburger menu
+        <Bars/>Hamburger menu
 
         <NavMenu>
           <NavLink to="/home" activeStyle>
