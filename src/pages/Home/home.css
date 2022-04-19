@@ -3,21 +3,13 @@
     padding: 2rem;
     grid-template-columns: 300px 1fr;
     gap: 1rem;
-    align-items: center;
-    max-width: 800px;
-    margin: 0 auto;
+
   }
 
-.leftside{
-  float: left;
-  margin-left: 24px;
-  
-}
 
-  img {
-    float: "right";
-    max-width: 50%;
-    height: auto;
+  .rightside {
+    float: right;
+    max-width: 400px;
   }
 
  button{

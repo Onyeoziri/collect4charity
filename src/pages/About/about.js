@@ -12,7 +12,6 @@ function about() {
           uguas iuhfaiusbf gua uifdaosh uigasbfiuga jghiuasf as ufasf
           jgaifj h ua ugiaj bg fdashdfiua basjbfdiuas jasnfd
         </p>
-
         <button>
           MEET OUR TEAM
         </button>

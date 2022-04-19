@@ -1,5 +1,6 @@
 {
   "name": "collect4charity",
+  "homepage": "http://484charityproject.org/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
