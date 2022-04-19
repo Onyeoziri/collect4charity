@@ -7,15 +7,18 @@
   margin: 0;
   padding: 0;
 }  
-body {
-  background: #525998;
+
+.App{
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #525998;
 }
 
 .semi-circle
   {
     position: relative;
     width: 1920px;
-    height: 1080px;
 
     background: #353F72;
   }
