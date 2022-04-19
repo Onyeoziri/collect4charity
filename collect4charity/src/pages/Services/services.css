@@ -1,0 +1,22 @@
+.services{
+    display: "flex";
+    justify-content: "center";
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn3>button {
+    display: inline-block;
+    border: 2px;
+    border-radius: 10px;
+    height: 300px;
+    width: 180px;
+    margin-right: 10%;
+    text-align: center;
+    cursor: pointer;
+    
+}

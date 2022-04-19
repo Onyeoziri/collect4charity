@@ -1,7 +1,7 @@
 import './App.css';
 import {Navbar} from './components';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import {Home, About, Services, Charities} from './pages';
+import {Home, About, Services, Charities, Login, ErrorPage} from './pages';
 
 const PagesNotFound =() =>(
   <div>404!</div>
@@ -13,13 +13,16 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
-          <Route path='/' element={Home} />
-          <Route path='/about' element={About} />
-          <Route path='/services' element={Services} />
-          <Route path='/cherities' element={Charities} />
+          <Route exact path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/services' element={<Services />} />
+          <Route path='/charities' element={<Charities />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='*' element={<ErrorPage />} />
         </Routes>
+        
       </Router>
-      <Home /> 
+      
       <span className = 'semi-circle'></span>
     </div>
   );

@@ -1,5 +1,6 @@
-export {default as Home} from './home';
+export {default as Home} from './Home/home';
 export {default as Charities} from './charities';
-export {default as About} from './about';
+export {default as About} from './About/about';
 export {default as Login} from './login';
-export {default as Services} from './services';
+export {default as Services} from './Services/services';
+export {default as ErrorPage} from './ErrorPage';

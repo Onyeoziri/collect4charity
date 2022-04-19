@@ -11,12 +11,12 @@ const Navbar = () => {
   return (
     <Nav>
         <NavLink to="/">
-          <h1>Logo</h1>
+          <h1>[Logo]</h1> <h1>   Collect4Cherity</h1>
         </NavLink>
         <Bars/>Hamburger menu
 
         <NavMenu>
-          <NavLink to="/home" activeStyle>
+          <NavLink to="/" activeStyle>
             Home
           </NavLink>
 
