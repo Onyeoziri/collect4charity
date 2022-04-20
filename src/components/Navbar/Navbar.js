@@ -11,9 +11,9 @@ const Navbar = () => {
   return (
     <Nav>
         <NavLink to="/">
-          <h1>[Logo]</h1> <h1>   Collect4Charity</h1>
+        <h1> Collect4Charity</h1>
         </NavLink>
-        <Bars/>Hamburger menu
+        <Bars/>
 
         <NavMenu>
           <NavLink to="/" activeStyle>
@@ -31,11 +31,14 @@ const Navbar = () => {
           <NavLink to="/charities" activeStyle>
             Charities
           </NavLink>
-        </NavMenu>
 
-        <NavBtn>
+          <NavBtn>
           <NavBtnLink to="/login"> Log In</NavBtnLink>
         </NavBtn>
+
+        </NavMenu>
+
+        
 
     </Nav>
   )

@@ -1,10 +1,15 @@
-import React from 'react'
+import React, {useState, useRef, useEffect, na} from 'react'
+import { useNavigate } from 'react-router-dom';
 import "./login.css";
 
 
 function LoginForm() {
+  let navagate = useNavigate();
+
+  const useRef = useRef();
+  const errRef = useRef();
   return (
-    <form>
+    <form onSubmit={() => navagate('/Dashboard') }>
       <div className='form-inner'>
         <h2>Login</h2>
 
