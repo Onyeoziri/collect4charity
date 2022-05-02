@@ -5,23 +5,19 @@ import "./login.css";
 function LoginForm() {
   return (
     <form>
-      <div className='form-inner'>
-        <h2>Login</h2>
 
-        <div className='form-group'>
-          <label htmlFor='Uname'>Username</label>
-          <input type={'text'} name='Uname' id='Uname'required/>
-        </div>
-
-        <div className='form-group'>
-          <label htmlFor='password'>Password</label>
-          <input type={'password'} name='password' id='password' required/>
-        </div>
-        
-        <input type={'submit'} value='Login'/>
+      <div class="main">
+        <p class="sign" align="center">Sign in</p>
+        <form class="form1">
+          <input class="un " type="text" align="center" placeholder="Username" />
+          <input class="pass" type="password" align="center" placeholder="Password" />
+          <a class="submit" align="center">Sign in</a>
+          <p class="forgot" align="center"><a href="#">Forgot Password?</a></p>
+        </form>
       </div>
     </form>
   )
 }
 
 export default LoginForm
+
