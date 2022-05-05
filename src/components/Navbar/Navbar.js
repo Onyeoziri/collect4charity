@@ -9,7 +9,8 @@ import {Nav,
 } from './NavbarElements';
 import './navBar.css';
 import { Link } from 'react-router-dom';
-import * as AiIcon from 'react-icons/ai'
+import * as AiIcon from 'react-icons/ai';
+import logo from '../../assets/logoEdited2.png'
 
 
 
@@ -27,7 +28,7 @@ const showSideBar = () => {
     <div>
      <Nav>
         <NavLink to="/">
-          <h1>[Logo]</h1> <h1>   Collect4Charity</h1>
+          <img src={logo} className='logo'/> <h1>   Collect4Charity</h1>
         </NavLink>
         
         
