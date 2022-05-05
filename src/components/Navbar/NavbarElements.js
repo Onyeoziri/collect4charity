@@ -24,6 +24,7 @@ export const NavLink = styled(Link)`
     }
 
 `
+
 export const Bars = styled(FaBars)`
     display: none;
     color: #fff;
@@ -53,7 +54,7 @@ export const NavMenu = styled.div`
 export const NavBtn = styled.nav`
     display: flex;
     align-items: center;
-    margin-right: 24px;
+    margin-right: 30px;
     /  * Third Nav */
     /* justify-content: flex-end;
     width: 100vw; */

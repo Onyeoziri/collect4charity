@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {Nav, 
   NavLink, 
   Bars, 
@@ -10,8 +11,8 @@ import {Nav,
 const Navbar = () => {
   return (
     <Nav>
-        <NavLink to="/">
-          <h1></h1> <h1>   Collect4Charity</h1>
+       <NavLink to="/">
+         <h1> Collect4Charity</h1>
         </NavLink>
         <Bars/>
 
