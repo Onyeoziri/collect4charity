@@ -1,20 +1,59 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {Nav, 
   NavLink, 
   Bars, 
-  NavMenu, 
+  NavMenu,
   NavBtn, 
-  NavBtnLink
+  NavBtnLink,
+  SideBarData
 } from './NavbarElements';
+import './navBar.css';
+import { Link } from 'react-router-dom';
+import * as AiIcon from 'react-icons/ai';
+import logo from '../../assets/logoEdited2.png'
+
+
+
+
 
 const Navbar = () => {
-  return (
-    <Nav>
-        <NavLink to="/">
-          <h1>[Logo]</h1> <h1>   Collect4Charity</h1>
-        </NavLink>
-        <Bars/>Hamburger menu
 
+
+const [sideBar, setSideBar] = useState(false);
+const showSideBar = () => {
+  setSideBar(!sideBar)
+}
+
+  return (
+    <div>
+     <Nav>
+        <NavLink to="/">
+          <img src={logo} className='logo'/> <h1>   Collect4Charity</h1>
+        </NavLink>
+        
+        
+
+        <Bars onClick={showSideBar}/>
+        <nav className={sideBar ? 'nav-menu active': 'nav-menu'}>
+          <ul className='nav-menu-items'>
+            <li className='navbar-toggle'>
+              <Link to ='#' className='menu-bars'>
+                <AiIcon.AiOutlineClose onClick={showSideBar}/>
+              </Link>
+            </li>
+            {SideBarData.map((item, index) => {
+              return (
+                <li key={index} className= {item.cName} onClick={showSideBar}>
+                  <Link to={item.path}>
+                    {item.title}
+                  </Link>
+                </li>
+              )
+            })}
+          </ul>
+        </nav>
+        
+        
         <NavMenu>
           <NavLink to="/" activeStyle>
             Home
@@ -29,7 +68,7 @@ const Navbar = () => {
           </NavLink>
 
           <NavLink to="/charities" activeStyle>
-            Charities
+          Charities
           </NavLink>
         </NavMenu>
 
@@ -38,6 +77,7 @@ const Navbar = () => {
         </NavBtn>
 
     </Nav>
+    </div>
   )
 }
 
