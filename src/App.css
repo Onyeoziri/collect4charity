@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+* {
+  font-family: 'Sora', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}  
+
+.App{
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #525998;
+}
+
+.semi-circle
+  {
+    position: relative;
+    width: 1920px;
+
+    background: #353F72;
+  }
+
+h1
+{
+  color: aliceblue;
+}
