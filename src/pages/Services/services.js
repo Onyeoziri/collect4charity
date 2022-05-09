@@ -1,29 +1,45 @@
 import React from 'react';
 import './services.css';
-import {Link, useNavigate} from 'react-router-dom';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faHandshake} from '@fortawesome/free-solid-svg-icons'
+import {faMagnifyingGlass} from '@fortawesome/free-solid-svg-icons'
+import {faMoneyBill} from '@fortawesome/free-solid-svg-icons'
 
 function services() {
   return (
     <div className='services'>
       <h1>Browse Services by Category</h1>
-
+      <br/>
+      <br/>
       <div className='btn3'>
         <button>
+          <FontAwesomeIcon icon={faHandshake} size='2x' />
+          <br/>
+          <br/>
           DONATE
           <br/>
-          <small>ahh Bleed them pockets</small>
+          <br/>
+          <small>Donate to Baltimore County Non-profit Organizations.</small>
         </button>
 
         <button>
+          <FontAwesomeIcon icon={faMagnifyingGlass} size='2x' />
+          <br/>
+          <br/>
           Discover Charities
           <br/>
-          <small>Want to suport a cause</small>
+          <br/>
+          <small>Discover new charities and support their missions.</small>
         </button>
 
         <button>
+          <FontAwesomeIcon icon={faMoneyBill} size='2x' />
+          <br/>
+          <br/>
           Manage Payments
           <br/>
-          <small>Keep Track</small>
+          <br/>
+          <small>Keep track of all payments made to charities.</small>
         </button>
       </div>
     </div>
