@@ -28,7 +28,8 @@ export const Bars = styled(FaBars)`
     display: none;
     color: #fff;
     @media screen and (max-width: 768px) {
-    display: block;
+    display: flex;
+    margin-right: 0px;
     position: absolute;
     top: 0;
     right: 0;
@@ -53,7 +54,7 @@ export const NavMenu = styled.div`
 export const NavBtn = styled.nav`
     display: flex;
     align-items: center;
-    margin-right: 24px;
+    margin-right: 75px;
     /  * Third Nav */
     /* justify-content: flex-end;
     width: 100vw; */
@@ -79,3 +80,24 @@ export const NavBtnLink = styled(Link)`
         color: #010606;
     }
 `
+export const SideBarData = [
+    {
+        title: 'Home',
+        path: '/',
+        cName: 'nav-text'
+    },
+    {
+        title: 'about',
+        path: '/about',
+        cName: 'nav-text'
+    }, {
+        title: 'services',
+        path: '/services',
+        cName: 'nav-text'
+    },
+    {
+        title: 'charities',
+        path: '/charities',
+        cName: 'nav-text'
+    }
+]

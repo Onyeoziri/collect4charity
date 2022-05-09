@@ -4,18 +4,18 @@ import DataTable from '../Services/DataTable'
 
 
 function charities() {
-  const[data, setData] = useState([])
+/*   const[data, setData] = useState([])
   const [q, setQ] = useState
 
   useEffect(() => {
     fetch()
     .then(response => response.json())
     .then((json) => setData(json))
-  }, [])
+  }, []) */
 
   return (
     <div>
-      <DataTable data={data}/>
+      {/* <DataTable data={data}/> */}
     </div>
   )
 }
