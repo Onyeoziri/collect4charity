@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Manage() {
+   /*
     const[data, setData] = useState([])
     const [q, setQ] = useState
 
@@ -21,6 +22,7 @@ function Manage() {
             <DataTable data={data}/>
         </div>
     )
+    */
 }
 
 export default Manage
