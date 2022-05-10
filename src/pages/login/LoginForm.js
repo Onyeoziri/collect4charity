@@ -5,7 +5,7 @@ import "./login.css";
 
 function LoginForm() {
 
-  return (
+  return ( 
     <form>
 
       <div class="main">
@@ -13,7 +13,7 @@ function LoginForm() {
         <form class="form1">
           <input class="un " type="text" align="center" placeholder="Username" />
           <input class="pass" type="password" align="center" placeholder="Password" />
-          <a class="submit" align="center">Sign in</a>
+          <button class="submit" align="center">Sign in</button>
           <p class="forgot" align="center"><a href="#">Forgot Password?</a></p>
         </form>
       </div>
