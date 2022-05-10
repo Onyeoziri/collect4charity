@@ -3,7 +3,7 @@ import DataTable from '../Services/DataTable'
 
 
 
-function charities() {
+function Charities() {
 /*   const[data, setData] = useState([])
   const [q, setQ] = useState
 
@@ -20,4 +20,4 @@ function charities() {
   )
 }
 
-export default charities
+export default Charities

@@ -10,7 +10,6 @@ function Dashboard() {
       </div>
       <table>
         <caption>Tranactions</caption>
-        <DataTable data={data}/>
       </table>
     </div>
   )
