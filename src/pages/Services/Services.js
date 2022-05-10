@@ -21,15 +21,19 @@ function Services() {
           <br/>
           <small>Donate to Baltimore County Non-profit Organizations.</small>
         </button>
-
+        
         <button>
           <FontAwesomeIcon icon={faMagnifyingGlass} size='2x' />
           <br/>
           <br/>
-          Discover Charities
+          <a href="http://localhost:3000/charities">Discover Charities</a>
           <br/>
           <br/>
-          <small>Discover new charities and support their missions.</small>
+          <small>
+          <a href="http://localhost:3000/charities">
+            Discover new charities and support their missions.
+            </a>
+            </small>
         </button>
 
         <button>
