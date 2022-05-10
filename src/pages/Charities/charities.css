@@ -4,4 +4,13 @@ table, th, td {
 
   table{
     justify-items: center;
+    position: center;
+    margin-top: 0%;
+    margin-left: 10%;
   }
+
+  td{
+    size: 20;
+    padding: 10px;
+  }
+

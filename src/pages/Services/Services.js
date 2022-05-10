@@ -13,6 +13,7 @@ function Services() {
       <br/>
       <br/>
       <div className='btn3'>
+        
         <Link to="/login">
           <button className='b1'>
             <div>
@@ -22,10 +23,8 @@ function Services() {
               DONATE        <span>.</span>
               <br/>
             </div>
-            
             <br/>
               <small>Donate to Baltimore County Non-profit Organizations.</small>
-            
           </button>
         </Link>
 
@@ -53,12 +52,10 @@ function Services() {
             Manage Payment
             <br/>
             </div>
-
             <br/>
             <small>Keep track of all payments made to charities.</small>
           </button>
         </Link>
-        
       </div>
     </div>
   )
