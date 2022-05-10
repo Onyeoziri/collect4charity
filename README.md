@@ -6,13 +6,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+###  `npm run express`
+
+Runs the express api at port 4000. This is required to access the MySQL Database and load data into the pages.
+
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You may also see any lint errors in the console.\
+To access the MySQL Database, `npm run express` must be running in a separate terminal.
 
 ### `npm test`
 
