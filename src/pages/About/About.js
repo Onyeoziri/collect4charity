@@ -17,11 +17,9 @@ function About() {
           in Baltimore County, Maryland.
         </p>
         <br/>
+          <button>MEET OUR TEAM</button>
+
         
-        <button>
-          MEET OUR TEAM
-        
-        </button>
 
         <img className='img2' src= {AboutImg} alt='' />
       </div>
