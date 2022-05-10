@@ -1,0 +1,40 @@
+.pic {
+    height: 20vmin;
+    display: flex;
+}
+.members1{
+    margin-left: 650px;
+    padding-top: -100px;
+    position:static;
+    flex: center;
+}
+.members2 {
+    margin-left: 650px;
+    padding-top: -100px;
+    position:static;
+    justify-content: center;
+}
+.members3{
+    margin-left: 650px;
+    padding-top: -100px;
+    position:static;
+    justify-content: center;
+}
+.members4{
+    margin-left: 650px;
+    padding-top: -100px;
+    position:static;
+    justify-content: center;
+}
+.members5{
+    margin-left: 650px;
+    padding-top: -100px;
+    position:static;
+    justify-content: center;
+}
+.members6{
+    margin-left: 650px;
+    padding-top: -100px;
+    position:static;
+    justify-content: center;
+}
