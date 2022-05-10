@@ -14,9 +14,11 @@ function Home() {
           County, Maryland.
         <br/>
         <br/>
-        <button >
-          DONATE NOW
-        </button>
+        <Link to= "/login"> 
+          <button >
+            DONATE NOW
+          </button>
+        </Link>
         </h1>
 
       
