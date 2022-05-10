@@ -7,13 +7,10 @@ import {Nav,
   NavBtnLink,
   SideBarData
 } from './NavbarElements';
-import './navBar.css';
+import './Navbar.css';
 import { Link } from 'react-router-dom';
 import * as AiIcon from 'react-icons/ai';
 import logo from '../../assets/logoEdited2.png'
-
-
-
 
 
 const Navbar = () => {
@@ -70,11 +67,14 @@ const showSideBar = () => {
           <NavLink to="/charities" activeStyle>
           Charities
           </NavLink>
-        </NavMenu>
 
-        <NavBtn>
+          <NavBtn>
           <NavBtnLink to="/login"> Log In</NavBtnLink>
         </NavBtn>
+
+        </NavMenu>
+
+        
 
     </Nav>
     </div>

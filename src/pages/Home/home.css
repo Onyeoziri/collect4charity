@@ -15,7 +15,6 @@
 }
 
 
-
 .leftside, .rightside {
     display: grid;
     padding: 2rem;
@@ -92,5 +91,3 @@ button:not(:disabled):focus {
 button:not(:disabled):active {
   box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
 }
-
-

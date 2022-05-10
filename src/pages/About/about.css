@@ -1,19 +1,35 @@
-.about h1{
+.aboutn h1{
     color: rgb(184, 223, 95);
 }
 
-.container{
-    display: flex;
-    align-items: center;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 6rem;
-  }
+.container2 {
+  margin-top: 1%;
+  margin-bottom: auto;
   
-  .img1{
-    max-width: 50%;
-  }
-  
-  .img-col{
-    flex-basis: 50%;
-  }
+}
+
+.container2 p {
+  text-align: left;
+  width: 50%;
+  color: white;
+  padding-left: 10%;
+  padding-right: auto;
+}
+
+.container2 h1 {
+  color: rgb(184, 223, 95);
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+.container2 button {
+ margin-left: 10%;
+ margin-right: auto;
+ background-color: rgb(184, 223, 95);
+}
+
+.img2{
+  position: absolute;
+  right: 0px;
+  width: 50%;
+}

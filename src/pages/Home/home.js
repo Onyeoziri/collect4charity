@@ -1,17 +1,18 @@
 import React from 'react'
 import './home.css'
-import WelcomeIMG from '../../assets/monks.jpg'
+import WelcomeIMG from '../../assets/home.png'
 import {Link, useNavigate} from 'react-router-dom';
 
-function home() {
+function Home() {
   return (
     <div className= 'home'>
 
       <div className='container'>
         
         <h1>
-          We are here to support to nonprofit charities in Baltimore
+          Supporting Nonprofit Charities in Baltimore
           County, Maryland.
+        <br/>
         <br/>
         <button >
           DONATE NOW
@@ -28,4 +29,4 @@ function home() {
   )
 }
 
-export default home
+export default Home
