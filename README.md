@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+###  `npm run express`
+
+Runs the express api at port 4000. This is required to access the MySQL Database and load data into the pages.
+
 ### `npm start`
 
 Runs the app in the development mode.\
