@@ -1,4 +1,9 @@
+const express = require('express');
 const mysql = require('mysql');
+
+const app = express();
+
+app.use(express.json());
 
 //hidden from github
 const fs = require('fs');
@@ -20,5 +25,12 @@ dbconnection.connect((err) => {
         console.log("Connection created with MySQL database successfully!");
     }
 });
+
+app.post('login', (req, res) => {
+    const username = req.body.username;
+    const password = req.body.password;
+
+    dbconnection.query
+})
 
 module.exports = dbconnection;
