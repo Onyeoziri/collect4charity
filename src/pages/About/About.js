@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
 import AboutImg from '../../assets/about.png'
+import {Link} from 'react-router-dom'
 
 function About() {
   return (
@@ -18,7 +19,9 @@ function About() {
             in Baltimore County, Maryland.
           </p>
           <br/>
-          <button>MEET OUR TEAM</button>
+          <Link to= '/about/team'>
+            <button>MEET OUR TEAM</button>
+          </Link>
         </div>
 
 
