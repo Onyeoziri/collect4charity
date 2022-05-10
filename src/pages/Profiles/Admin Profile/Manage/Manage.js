@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 
 function Manage() {
     const[data, setData] = useState([])
@@ -10,15 +10,15 @@ function Manage() {
         .then((json) => setData(json))
     }, [])
 
-    function search(row){
+/*     function search(row){
         const columns = rows[0] && Object.keys(rows[0]);
         return rows.filter((row) => 
             columns.some((columns) => row[column].toString().toLowerCase().indexOf(q) >-1)
         );
-    }
+    } */
     return (
         <div>
-            <DataTable data={data}/>
+            {/* <DataTable data={data}/> */}
         </div>
     )
 }

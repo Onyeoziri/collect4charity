@@ -1,4 +1,4 @@
-import { data } from 'cheerio/lib/api/attributes'
+//import { data } from 'cheerio/lib/api/attributes'
 import React, {useState, useEffect, Component} from 'react'
 import DataTable from '../Services/DataTable'
 import axios from 'axios'
