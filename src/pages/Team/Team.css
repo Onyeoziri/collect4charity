@@ -1,51 +1,31 @@
 .pic {
     height: 20vmin;
+    min-width: 10vmin;
     display: flex;
 }
-.members{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: repeat(3, 5vw);
-    grid-column-start: 200px;
-    grid-row: 50px;
-    grid-template-rows: repeat(3, 5vw);
-    margin: 20px;
+.th1{
+    margin-top: .75in;
+    margin-bottom: -.5in;
+    text-align: center;
 }
 
-.members1{
-    margin-left: 650px;
-    padding-top: -100px;
-    position:static;
-    flex: center;
-}
-.members2 {
-    margin-left: 650px;
-    padding-top: -100px;
-    position:static;
+.Tcontainer{
+    padding: 5%;
+    display: grid;
     justify-content: center;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(3, 60%);
 }
-.members3{
-    margin-left: 650px;
-    padding-top: -100px;
-    position:static;
-    justify-content: center;
+
+.Tcontainer p, h3 {
+    color: rgb(184, 223, 95);
 }
-.members4{
-    margin-left: 650px;
-    padding-top: -100px;
-    position:static;
-    justify-content: center;
+
+.Tcontainer p {
+    color: white;
 }
-.members5{
-    margin-left: 650px;
-    padding-top: -100px;
-    position:static;
-    justify-content: center;
+.members{
+    padding-left: 20%;
+    padding-right: 40%;
 }
-.members6{
-    margin-left: 650px;
-    padding-top: -100px;
-    position:static;
-    justify-content: center;
-}
+

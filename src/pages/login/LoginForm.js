@@ -11,8 +11,8 @@ function LoginForm() {
       <div class="main">
         <p class="sign" align="center">Sign in</p>
         <form class="form1">
-          <input class="un " type="text" align="center" placeholder="Username" />
-          <input class="pass" type="password" align="center" placeholder="Password" />
+          <input class="un " type="text" align="center" placeholder="Username" required/>
+          <input class="pass" type="password" align="center" placeholder="Password" required/>
           <button class="submit" align="center">Sign in</button>
           <p class="forgot" align="center"><a href="#">Forgot Password?</a></p>
         </form>

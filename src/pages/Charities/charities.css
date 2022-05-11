@@ -14,3 +14,16 @@ table, th, td {
     padding: 10px;
   }
 
+.charities h2{
+  color: white;
+  margin-top: .75in;
+  text-align: center;
+  padding-bottom: .4in;
+
+}
+
+.charities p{
+  color: rgb(238, 227, 227);
+  align-items: center;
+}
+

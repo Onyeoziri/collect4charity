@@ -11,8 +11,10 @@ function Team() {
   return (
     
     <div className='Team'>
-      <h1>Meet Our Team Members</h1>
+      <h1 className='th1'>Meet Our Team Members</h1>
       <br/>
+      <br/>
+      <div className='Tcontainer'>
       <div className='members'>
   
         <h3 >Ahmed</h3>
@@ -75,15 +77,11 @@ function Team() {
 
       </div>
 
+      </div>
+
      
 
 
-
-
-
-  <table>
-  
-  </table> 
     </div>
   )
 }

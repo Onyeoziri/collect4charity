@@ -47,7 +47,9 @@ callBackendAPI() {
 */
 render(){
   return(
-    <div>
+    <div className='charities'>
+      <h2>Our Charities</h2>
+
       <p>
         <table>
           <th>Name</th>
