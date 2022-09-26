@@ -1,3 +1,6 @@
+The Site primary goal is to promote donations, raise awareness and offer support to nonprofit charities
+in Baltimore County, Maryland.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
