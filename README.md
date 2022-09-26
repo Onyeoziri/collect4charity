@@ -1,4 +1,4 @@
-The ite primary goal is to promote donations, raise awareness and offer support to nonprofit charities
+The site primary goal is to promote donations, raise awareness and offer support to nonprofit charities
 in Baltimore County, Maryland.
 
 # Getting Started with Create React App
